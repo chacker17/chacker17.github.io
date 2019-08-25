@@ -1,0 +1,76 @@
+/* Universal Styles */
+
+body {
+    margin: 0;
+    font-family: "Mallanna";
+    font-size: 20px;
+    color: black;
+}
+
+/* Header */
+header {
+    display: flex;
+    color: rgb(51, 58, 68);
+    font-family: "Mallanna";
+    font-size: 60px;
+    text-align: center;
+}
+
+header #name {
+    margin-bottom: 40px;
+}
+
+/* Navigation Menu */
+nav {
+    border-style: solid none solid none;
+    border-color: rgb(51, 58, 68);
+    border-width: 1px;
+    padding: 8px;
+    text-align: center;
+    font-family: "Mallanna";
+    font-size: 20px;
+}
+
+nav a {
+    padding: 1.5em;
+    color: rgb(51, 58, 68);
+}
+
+/* Message */
+.description {
+    font-family: "Mallanna";
+    color: rgb(51, 58, 68);
+    font-size: 35px;
+    width: 60%;
+    margin: 20px 20% 20px 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.description a {
+    color: rgb(141, 179, 239);
+}
+
+/* Footer */
+.footer {
+    color: white;
+    background-color: rgb(141, 179, 239);
+    font-family: "Mallanna";
+    font-size: 18px;
+    height: 3.5em;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.footer #lastModified {
+    left: 30px;
+}
+
+.footer #credit {
+    right: 30px;
+}

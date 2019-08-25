@@ -1,0 +1,142 @@
+/* Universal Styles */
+
+body {
+    margin: 0;
+    font-family: "Mallanna";
+    font-size: 20px;
+    color: black;
+}
+
+/* Header */
+header {
+    display: flex;
+    color: rgb(51, 58, 68);
+    font-family: "Mallanna";
+    font-size: 60px;
+    text-align: center;
+}
+
+header #name {
+    margin-bottom: 40px;
+}
+
+/* Navigation Menu */
+nav {
+    border-style: solid none solid none;
+    border-color: rgb(51, 58, 68);
+    border-width: 1px;
+    padding: 8px;
+    text-align: center;
+    font-family: "Mallanna";
+    font-size: 20px;
+}
+
+nav a {
+    padding: 1.5em;
+    color: rgb(51, 58, 68);
+}
+
+/* Project Descriptions */
+#lab {
+    color: rgb(51, 58, 68);
+    font-family: "Mallanna";
+    font-size: 30px;
+    border-style: none none solid none;
+    border-color: rgb(51, 58, 68);
+    border-width: 2px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+#pageBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#oneLab {
+    display: flex;
+    flex-direction: column;
+}
+
+#right { 
+    margin-left: 50px;
+}
+
+#title {
+    color: white;
+    font-family: "Mallanna";
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: rgb(141, 179, 239);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#titleFirst {
+    color: white;
+    font-family: "Mallanna";
+    font-size: 25px;
+    margin-bottom: 10px;
+    background-color: rgb(141, 179, 239);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#title b {
+    margin-left: 20px;
+}
+
+#titleFirst b {
+    margin-left: 20px;
+}
+
+.description { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(51, 58, 68);
+    font-family: "Mallanna";
+    font-size: 18px;
+    margin-top: 15px;
+    /* border: solid; */
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description a {
+    color: rgb(141, 179, 239);
+}
+
+/* Footer */
+.footer {
+    color: white;
+    background-color: rgb(141, 179, 239);
+    font-family: "Mallanna";
+    font-size: 18px;
+    height: 3.5em;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 20px;
+}
+
+.footer #lastModified {
+    left: 30px;
+}
+
+.footer #credit {
+    right: 30px;
+}
