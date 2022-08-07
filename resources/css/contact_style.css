@@ -36,35 +36,44 @@ nav a {
 }
 
 /* Contact Info */
-/* #boxes { 
+ #boxes { 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 
 .contactInfo { 
-    background-color: rgb(141, 179, 239);
-    width: 25%;
-    height: 275px;
+    /* background-color: rgb(141, 179, 239); */
+    border-style: solid;
+    border-color: rgb(51, 58, 68);
+    /* width: 25%; */
+    /* height: 275px; */
+    height: 15vw;
+    width: 20vw;
     display: flex;
     flex-direction: column;
-    border-radius: 50%;
-    padding-top: 10px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    border-radius: 8%;
+    padding-top: 0px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-right: 1vw;;
+    margin-left: 1vw;
     align-items: center;
     justify-content: center;
 }
 
 .contactInfo img {
-    width: 30%;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    width: 5vw;
+    height: 5vw;
+    /* margin-bottom: 30px;
+    margin-top: 10px; */
 }
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 1.2vw;
 } */
 
 .contactInfo {
@@ -79,6 +88,24 @@ nav a {
 }
 
 .contactInfo a {
+    padding: 1.5em;
+    /* color: rgb(51, 58, 68); */
+    color: rgb(141, 179, 239);
+}
+
+/* Attributions */
+.attribution #icons{
+    display: flex;
+    font-family: "Mallanna";
+    font-size: 1.2vw;
+    justify-content: right;
+    padding: 5px 15px;
+    white-space: pre;
+    margin-bottom: 0.75vw;
+    margin-top: 1vw;
+}
+
+.attribution a {
     color: rgb(141, 179, 239);
 }
 
