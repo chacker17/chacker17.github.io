@@ -73,6 +73,7 @@ nav a {
     flex-direction: column;
     margin-left: 12.5%;
     width: 75%;
+    margin-bottom: 40px;
 }
 
 #title { 
@@ -91,8 +92,9 @@ nav a {
    margin-left: 40px; 
 }
 
-#details { 
-    padding-left: 1.5em;
+#details {  /*  HANGING INDENTS -- should add to 1.5em padding left */
+    padding-left: 4em;
+    text-indent: -2.5em;
 }
 
 #details a {
