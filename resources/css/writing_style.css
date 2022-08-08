@@ -37,80 +37,86 @@ nav a {
     color: rgb(51, 58, 68);
 }
 
-/* Contact Info */
+/* Writing */
  #boxes { 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    margin-right: 5vw;
-    margin-left: 5vw;
+    align-items: center;
+    /* margin-right: 5vw;
+    margin-left: 5vw; */
 }
 
-.contactInfo { 
+.article { 
     /* background-color: rgb(141, 179, 239); */
     border-style: solid;
     border-color: rgb(51, 58, 68);
     /* width: 25%; */
     /* height: 275px; */
-    height: 15vw;
-    width: 20vw;
+    /* height: 15vw; */
+    /* height: 250%; */
+    width: 70vw;
     display: flex;
     flex-direction: column;
-    border-radius: 8%;
-    padding-top: 0px;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    border-radius: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     margin-right: 1vw;;
     margin-left: 1vw;
     align-items: center;
     justify-content: center;
+    font-family: "Mallanna";
+    font-size: 25px;
 }
 
-.contactInfo img {
+/* .article img {
     width: 5vw;
     height: 5vw;
     /* margin-bottom: 30px;
-    margin-top: 10px; */
-}
-
-.text {
-    color: white;
-    font-size: 1.2vw;
+    margin-top: 10px; 
 } */
 
-.contactInfo {
-    font-family: "Mallanna";
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.contactInfo a {
+.article a {
     padding: 1.5em;
     /* color: rgb(51, 58, 68); */
     color: rgb(71, 140, 251);
 }
 
-/* Attributions */
-.attribution #icons{
-    display: flex;
-    font-family: "Mallanna";
-    font-size: 1.2vw;
-    justify-content: right;
-    padding: 5px 15px;
-    white-space: pre;
-    margin-bottom: 0.75vw;
-    margin-top: 1vw;
+.postTitle a {
+    color: rgb(71, 140, 251);    
+    font-size: 1.5vw;
+    text-align: center;
 }
 
-.attribution a {
-    /* color: rgb(141, 179, 239); */
-    color: rgb(71, 140, 251);
+.description {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
+
+.description img {
+    height: 125px;
+    margin-left: 25px;
+    margin-right: 8px;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: rgb(51, 58, 68);
+    font-size: 1.3vw;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: left;
+    justify-content: center;
+}
+
 
 /* Footer */
 .footer {
@@ -134,3 +140,8 @@ nav a {
 .footer #credit {
     right: 30px;
 }
+
+.text {
+    color: white;
+    font-size: 1.2vw;
+} 

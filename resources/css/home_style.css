@@ -14,6 +14,7 @@ header {
     font-family: "Mallanna";
     font-size: 60px;
     text-align: center;
+    margin-top: 15px;
 }
 
 header #name {
@@ -26,6 +27,7 @@ nav {
     border-color: rgb(51, 58, 68);
     border-width: 1px;
     padding: 8px;
+    margin-top: 20px;
     text-align: center;
     font-family: "Mallanna";
     font-size: 20px;
@@ -63,8 +65,9 @@ nav a {
 .bio img {
     width: 350px;
     height: 350px;
+    border-radius: 10%;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(51, 58, 68);
     border-width: 5px;
     margin-right: 40px;
 }
@@ -77,7 +80,8 @@ nav a {
 }
 
 #main a {
-    color: rgb(141, 179, 239);
+    /* color: rgb(141, 179, 239); */
+    color: rgb(71, 140, 251);
 }
 
 #aboutMe {

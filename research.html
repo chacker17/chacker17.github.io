@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Catrina Hacker</title>
-        <link rel="stylesheet" href="./resources/css/pastProjects_style.css" type ="text/css"/>
+        <link rel="stylesheet" href="./resources/css/research_style.css" type ="text/css"/>
         <link href='https://fonts.googleapis.com/css?family=Mallanna' rel='stylesheet'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
@@ -13,17 +13,52 @@
                 <nav>
                     <span><a href="index.html">Home</a></span>
                     <span><a href="cv.html">CV</a></span>
-                    <span><a href="currentWork.html">Current Work</a></span>
-                    <span><a href ="pastProjects.html">Past Projects</a></span>
+                    <span><a href="research.html">Research</a></span>
+                    <span><a href="writing.html">Writing</a></span>
                     <span><a href="contact.html">Contact</a></span>
                 </nav>
             </header>
 
-            <!-- IMAGE UNDERSTANDING LAB -->
+            <!-- Visual Memory Lab -->
             <div id  = "pageBody">
+                <span id = "lab"><b>Visual Memory Lab, University of Pennsylvania</b></span>
+                <div id= "oneLab">
+                    <span id = "titleFirst"><b>Identifying the neural correlates of context-dependent changes in image memorability</b></span>
+                    <div class = "project">
+                        <div class = "description">
+                            <p>We have an incredible capacity for visual memory, but not all images are equally likely to be remembered. Some images are consistently better remembered than others, a phenomenon known as <a href="https://pennneuroknow.com/2021/09/28/image-memorability-a-shared-tendency-to-remember-certain-things-we-see%ef%bf%bc/" target="_blank">image memorability</a>. The images we've most recently seen also influence how easily we remember new images. We're much less likely to remember a dog when we've just seen 10 other dogs than we are if we see that same dog after seeing 10 other objects. My project aims to understand the neural correlates of this phenomenon and to determine how changes in the neural representations of visual memories drive these changes in memory. I recently presented my work at the 2022 meeting of the Vision Science Society. Check back again later for more updates about this project.</p>
+                        </div>
+
+                        <div class = "picture" id = "right">
+                            <img src = "./resources/images/dogs.png" height="275px">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- BOTTJER SONGBIRD LAB -->
+                <span id = "lab"><b>Bottjer Songbird Lab, University of Southern California</b></span>
+                <div id = "oneLab">
+                    <span id = "titleFirst"><b>Optogenetic Disruption of Song-Learning in Juvenile Zebra Finches</b></span>
+                    <div class = "project">
+                        <div class = "picture">
+                            <img src = "./resources/images/zebraFinches.jpg"/>
+                        </div>
+                        <div class = "description" id = "right">
+                            <p>Juvenile zebra finches are often studied as a model of motor learning because of the remarkable ability of juveniles to learn highly complex and stereotyped songs from a tutor. 
+                                Such learning requires the integration of information in cortico-basal ganglia loops carrying motor signals with information in evaluative loops that assess and refine the bird&#8217s song. 
+                                Cortical area AId is a compelling site for such integration as the motor and evaluative loops converge in juveniles via a collateral that disappears in adulthood after their song has been learned. 
+                                To test whether altering activity in AId can prevent accurate copying of tutor song, I helped develop a paradigm in which the singing of a specific syllable is paired with optogenetic disruption of AId in juveniles. 
+                                Work is still being done to determine the impact of these disruptions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IMAGE UNDERSTANDING LAB -->
                 <span id = "lab"><b>Image Understanding Lab, University of Southern California</b></span>
                 <div id = "oneLab">
-                    <!--<span id = "titleFirst"><b>Background Invariance in Face Recognition</b></span>
+                    <!-- <span id = "titleFirst"><b>Background Invariance in Face Recognition</b></span>
                     <div class = "project">
                         <div class = "picture">
                             <img src = "./resources/images/backgroundInvariance.png"/>
@@ -35,17 +70,17 @@
                                 I worked with Rose Meltzer in the IUL to develop a behavioral task that tests the extent to which face recognition is affected by the presence of a background that is known to activate face-selective areas versus one that is not.</p>
                             <p><a href = "https://www.testable.org/experiment/373/921775/start" target = "_blank">Try the test!</a></p>
                         </div>
-                    </div>
-                -->
+                    </div> -->
+               
                     
                     <span id = "titleFirst"><b>Assesesing Proficiency for Face Memory Independent of Face Perception</b></span>
                     <div class = "project">
                         <div class = "description">
                             <p>Most tests of face recognition implicitly assume it to be an undifferentiated ability. 
-                                Several possible independent components could comprise face recognition proficiency, such as those for the perceptual discrimination of faces, face memory and the ability to generalize across viewpoints. 
+                                Several independent components could comprise face recognition proficiency, such as those for the perceptual discrimination of faces, face memory and the ability to generalize across viewpoints. 
                                 I designed a behavioral task to separate two of these potential components: proficiency for the perceptual discrimination of faces and proficiency for face memory. 
                                 Using this task, I found evidence on the group level that these are two independent processes. 
-                                Preliminary analyses suggest that these two proficiencies may be uncorrelated on an individual basis, challenging the generally held assumption that face recognition is a general ability that cannot be differentiated into independent components. </p>
+                                My analyses suggest that these two proficiencies may be uncorrelated on an individual basis, challenging the generally held assumption that face recognition is a general ability that cannot be differentiated into independent components. </p>
                             <p><a href = "./resources/videos/FMT_demo.mp4" target = "_blank">Watch a demo of the task</a> or <a href = "./resources/downloadable_files/Hacker_FMT_Poster_2019.pdf" target = "_blank">check out the poster</a> or <a href = "https://psyarxiv.com/9bwct/" target = "_blank">read the preprint!</a>!</p>
                         </div>
                         <div class = "picture" id = "right">
@@ -66,12 +101,12 @@
                         </div>
                         <div class = "description" id = "right">
                             <p>
-                                Previous studies have demonstrated that recognizing an unfamiilar face that has been rotated in depth is very difficult, but have not offered explanations as to why.
-                                We quantified the difference in representation imposed by rotating a face and between the two test faces using the Gabor jet model, which correlates strongly with human behavior.
+                                Previous studies have demonstrated that recognizing an unfamiilar face rotated in depth is difficult, but have not offered explanations as to why.
+                                We quantified the difference in representation imposed by rotating a face using the gabor jet model, and compared this to the representational difference between two test faces. The gabor jet model has previously been shown to correlate strongly with perceptual discrimination of similar faces.
                                 We found that two factors were sufficient to account for the difficulty of any given trial: 1) The orientation disparity between the matching and sample images and 2) the similarity between the match and distractor images.
                                 With modest rotations of just 13&#176 or 20&#176, we documented a before unappreciated huge difference in representation imposed by rotating a face in depth that could account for the difficulty of this task.
                             </p>
-                            <p><a href = "./resources/videos/OFPT_demo_cropped.mp4" target = "_blank">Watch a demo of the task</a> or <a href = "./resources/downloadable_files/Zhu_OFPT_Poster_2019.pdf" target = "_blank">check out the poster</a> or <a href="https://psyarxiv.com/48k5q/" target = "_blank">read the prepint!</a></p>
+                            <p><a href = "./resources/videos/OFPT_demo_cropped.mp4" target = "_blank">Watch a demo of the task</a> or <a href = "./resources/downloadable_files/Zhu_OFPT_Poster_2019.pdf" target = "_blank">check out the poster</a> or <a href="https://www.sciencedirect.com/science/article/pii/S0042698921002030" target = "_blank">read the paper!</a></p>
                         </div>
                     </div>
 
@@ -82,8 +117,7 @@
                                 Since this discovery, no explanation has been given for this invariance. 
                                 One possibility is that familiarity with a face facilitates invariance to stretch similarly to how familiarity has been shown to facilitate invariance to rotation in depth. 
                                 To test this, I designed a behavioral task to determine if familiarity with a face could also explain invariance to stretch by having subjects rate their familiarity with a number of celebrities used in the task. 
-                                I rejected this hypothesis as well as the possibility that faces are &#8220un-stretched&#8221 by warping them to an average face. 
-                                Instead, we suggest that the percept of an elongated face provides a signal for the shrink-wrapping of receptive fields to conform to an attended object, a phenomenon witnessed in single unit activity in the macaque by Moran and Desimone (1985). 
+                                My results show that familiarity cannot account for stretched face recognition. After rejecting the possibility that faces are &#8220un-stretched&#8221 by warping them to an average face we suggest that the percept of an elongated face provides a signal for the shrink-wrapping of receptive fields to conform to an attended object, a phenomenon witnessed in single unit activity in the macaque by Moran and Desimone (1985). 
                                 Such a phenomenon may serve, more generally, as the underlying neural mechanism for object-based attention. </p>
                             <p><a href = "./resources/videos/SF_demo.mp4" target = "_blank">Watch a demo of the task</a> or <a href = "./resources/downloadable_files/StretchedFaces_VSS_18.pdf" target = "_blank">check out the poster</a> or <a href = "https://psyarxiv.com/e5hgx/" target = "_blank">read the preprint!</a></p>
                         </div>
@@ -109,28 +143,10 @@
                                 To address this question I designed an experiment with taxing temporal limitations (presentation times of 133-168 msec/face) and maximum uncertainty (the identity of the target was not known). 
                                 Neurotypical subjects averaged about 75% overall accuracy in detecting the presence of a celebrity. 
                                 Not only this, but accurate detection&#8211indicating that a celebrity was present in the sequence&#8211was nearly always accompanied by identification of the target. 
-                                Such successful detection and identification under demanding conditions indicates a remarkable facility of face recognition for normal individuals. 
+                                Such successful detection and identification under demanding conditions indicates a remarkable facility of face recognition for neurotypical individuals. 
                                 Prosopagnosics, those who struggle with face recognition, were significantly worse, with some performing at chance. 
                                 They too, however, almost always were able to identify any celebrity that they detected, demonstrating that when we sense that a face is familiar, we almost always know who it is (although we sometimes block on the name).</p>
                             <p><a href = "./resources/videos/RSVPdemo_faster.mp4" target = "_blank">Watch a demo of the task</a> or <a href = "./resources/downloadable_files/RSVPDoppelganger_VSS_17.pdf" target = "_blank">check out the poster</a> or <a href = "./resources/downloadable_files/Hacker et al. - 2019 - A face in a (temporal) crowd.pdf" target = "_blank">read the paper!</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- BOTTJER SONGBIRD LAB -->
-                <span id = "lab"><b>Bottjer Songbird Lab, University of Southern California</b></span>
-                <div id = "oneLab">
-                    <span id = "titleFirst"><b>Optogenetic Disruption of Song-Learning in Juvenile Zebra Finches</b></span>
-                    <div class = "project">
-                        <div class = "picture">
-                            <img src = "./resources/images/zebraFinches.jpg"/>
-                        </div>
-                        <div class = "description" id = "right">
-                            <p>Juvenile zebra finches are often studied as a model of motor learning because of the remarkable ability of juveniles to learn highly complex and stereotyped songs from a tutor. 
-                                Such learning requires the integration of information in cortico-basal ganglia loops carrying motor signals with information in evaluative loops that assess and refine the bird&#8217s song. 
-                                Cortical area AId is a compelling site for such integration as the motor and evaluative loops converge in juveniles via a collateral that disappears in adulthood after the song has been learned. 
-                                To test whether altering activity in AId can prevent accurate copying of tutor song, I helped develop a paradigm in which the singing of a specific syllable is paired with optogenetic disruption of AId in juveniles. 
-                                Preliminary analyses are still being run.</p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +154,7 @@
 
             <!-- FOOTER -->
             <div class = "footer">
-                    <span id = "lastModified">Last Modified: August, 2019</span>
+                    <span id = "lastModified">Last Modified: August 2022</span>
                     <span id = "credit">Website created by Catrina M. Hacker</span>
             </div>
     </body>
