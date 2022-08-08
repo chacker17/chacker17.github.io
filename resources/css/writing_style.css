@@ -88,7 +88,11 @@ nav a {
 
 .postTitle a {
     color: rgb(71, 140, 251);    
-    font-size: 1.5vw;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.postTitle {
     text-align: center;
 }
 
@@ -99,7 +103,8 @@ nav a {
 }
 
 .description img {
-    height: 125px;
+    /* height: 125px; */
+    height: 12vw;
     margin-left: 25px;
     margin-right: 8px;
 }
@@ -109,7 +114,7 @@ nav a {
     flex-direction: column;
     width: 100%;
     color: rgb(51, 58, 68);
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     padding-top: 0px;
     padding-left: 15px;
     padding-right: 15px;
