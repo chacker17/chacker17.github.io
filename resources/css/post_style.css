@@ -59,6 +59,10 @@ nav a {
     justify-content: center;
     padding-top: 0.8em;
     text-align: center;
+    /* width: 70%; */
+    /* align-items: center; */
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #blurb a {
@@ -79,6 +83,7 @@ nav a {
     font-size: 20px;
     color: rgb(51, 58, 68);
     font-family: "Mallanna";
+    margin-bottom: 25px;
 }
 
 #sectionTitle {
