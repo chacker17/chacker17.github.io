@@ -46,37 +46,55 @@ nav a {
     padding: 40px;
     font-family: "Mallanna";
     color: rgb(51, 58, 68);
-    font-size: 18px;
+    font-size: 19px;
 }
 
 #intro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 40px;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-around;*/
+    text-align: justify;
+    /*padding: 40px;*/
     /* border-style: solid;
     border-color: rgb(51, 58, 68);
     border-width: 2px; */
-    width: 85%;
+    /*width: 85%;*/
     margin-left: auto;
     margin-right: auto;
 }
 
-.bio img {
-    width: 350px;
-    height: 350px;
-    border-radius: 10%;
+/*.bio img {*/
+#intro img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
     border-style: solid;
     border-color: rgb(51, 58, 68);
     border-width: 5px;
     margin-right: 40px;
+    margin-bottom: 10px;
+    /*align-self: center;*/
+    float: left;
+}
+
+#bridgePic img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*float: center;*/
+    /*align-self: center;*/
 }
 
 #main { 
     align-self: center;
     padding: 10px;
-    width: 40em;
+    width: 45em;
     font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main a {
@@ -85,8 +103,8 @@ nav a {
 }
 
 #aboutMe {
-    width: 80%;
-    padding: 40px;
+    width: 45em;
+    padding: 10px;
     padding-top: 18px;
     margin-left: auto;
     margin-right: auto;

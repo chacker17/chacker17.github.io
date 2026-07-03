@@ -109,6 +109,10 @@ nav a {
     margin-right: 8px;
 }
 
+.photo {
+    align-self: center;
+}
+
 .blurb {
     display: flex;
     flex-direction: column;
