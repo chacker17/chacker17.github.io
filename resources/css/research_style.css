@@ -71,6 +71,10 @@ nav a {
     margin-left: 50px;
 }
 
+/*#left {
+    margin-right: 50px;
+}*/
+
 #title {
     color: white;
     font-family: "Mallanna";
@@ -114,6 +118,7 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 38%;
 }
 
 .description a {
